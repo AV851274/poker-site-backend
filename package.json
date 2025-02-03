@@ -1,0 +1,50 @@
+{
+  "name": "poker-backend",
+  "version": "1.0.0",
+  "description": "drizzy",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon"
+  },
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-secure-shuffle": "^2.0.5",
+    "crypto-shuffle": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "errorhandler": "^1.5.1",
+    "helmet": "^7.0.0",
+    "hyper-express": "^6.16.4",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "phe": "^0.6.0",
+    "unique-username-generator": "^1.1.3",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/compression": "^1.7.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/errorhandler": "^1.5.0",
+    "@types/express": "^4.17.17",
+    "@types/helmet": "^4.0.0",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^20.4.2",
+    "@types/yup": "^0.32.0",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
